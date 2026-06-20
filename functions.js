@@ -16,6 +16,9 @@
 
 
 
+
+
+
 // print()
 
 // const print = function() {
@@ -25,7 +28,7 @@
 // print()
 
 
-// const print = () => console.log("playwright");
+// const print = () => return "playwright"
  
 
 
@@ -36,12 +39,12 @@
 // return values
 
 
-// function print() {
-//     return "playwright"
-// }
+function print() {
+    return "playwright"
+}
 
 
-// // console.log(print());
+// console.log(print());
 
 // const value = print()
 
@@ -55,6 +58,9 @@ function add(a, b) {
     return a + b
     
 }
+
+
+// console.log(add(20, 70));
 
 
 const value = add(20, 70)
@@ -85,7 +91,6 @@ function printValues(text) {
 
 
 printValues('cypress')
-
 
 
 
