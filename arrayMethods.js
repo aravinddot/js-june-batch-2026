@@ -119,18 +119,132 @@
 
 // array.map()
 
-const num = [10, 20, 30, 40, 50]
+// const num = [10, 20, 30, 40, 50]
 
-const result = num.map(value => value * 10)
+// const result = num.map(value => value * 10)
 
-console.log(result);
+// console.log(result);
+
+
+// const automationTool = ["playwright", "cypress", "selenium", "puppeter", "testcafe"]
+
+// const upperCase = automationTool.map(value => value + 10)
+
+// console.log(upperCase);
+
+// array.join()
+
+// const automationTool = ["playwright", "cypress", "selenium", "puppeter", "testcafe"]
+
+// console.log(automationTool.join(', '));
+
+
+//array.filer()
+
+
+// const num = [20, 40, 30, 50, 80, 100]
+
+
+// const result = num.filter(value => value > 30)
+
+// console.log(result);
+
+
+// array.find()
+
+// const result = num.find(value => value > 30)
+
+// console.log(result);
+
+
+// array.every()
+
+// const result = num.every(value => value > 19)
+
+// console.log(result);
+
+
+// array.some()
+
+// const result = num.some(value => value > 101)
+
+// console.log(result);
+
+
+// array.findIndex()
+
+// const result = num.findIndex(value => value > 50)
+
+// console.log(result);
+
+
+const num = [20, 40, 30, 50, 80, 100]
+
+//array.sort()
+
+// const result = num.sort((a, b)=> b - a)
+
+// console.log(result);
+
+
+
+// array.reduce()
+
+// const result = num.reduce((acc, curr)=> acc + curr, 1)
+
+// console.log(result);
+
+
+// Array.isArray()
+
+// const value = "playwright"
+
+
+// console.log(Array.isArray(value));
+
+
+// if(Array.isArray(num)) {
+//     console.log(`Value is an array`);
+    
+// } else {
+//     console.log('value is not an array');
+    
+// }
+
+
+// array.lastIndexOf
+
+// const num = [10, 20, 30, 10, 40]
+
+
+// console.log(num.lastIndexOf(10));
+
 
 
 const automationTool = ["playwright", "cypress", "selenium", "puppeter", "testcafe"]
 
-const upperCase = automationTool.map(value => value + 10)
 
-console.log(upperCase);
+// for(const key of automationTool.keys()) {
+//     console.log(key);
+    
+// }
+
+
+// for(const key of automationTool.values()) {
+//     console.log(key);
+    
+// }
+
+
+// for(const key of automationTool.entries()) {
+//     console.log(key);
+    
+// }
+
+
+
+
+
 
 
 
